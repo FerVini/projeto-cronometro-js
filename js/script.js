@@ -66,7 +66,7 @@ function continueTimer() {
     pauseBtn.classList.toggle("none")
 }
 
-function resetTimer(){
+function resetTimer() {
     clearInterval(interval)
     minutes = 0
     seconds = 0
